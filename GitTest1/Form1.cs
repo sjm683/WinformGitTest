@@ -29,7 +29,9 @@ namespace GitTest1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test3");
+
+            this.label1.Text = "Test3";
+
         }
     }
 }
